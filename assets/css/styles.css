@@ -1,0 +1,7 @@
+/* Nav-bar  */
+.bg-main {
+  background-color: #d35749; }
+
+@media (min-width: 1024px) {
+  .m-lg {
+    margin-left: auto; } }

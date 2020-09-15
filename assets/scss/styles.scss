@@ -1,0 +1,13 @@
+@import "colors";
+
+/* Nav-bar  */
+
+.bg-main { 
+  background-color: $color-red;
+}
+
+.w-lg {
+  @media (min-width: 1024px){
+    width: 80%;
+  }
+}
