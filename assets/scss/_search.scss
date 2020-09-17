@@ -1,0 +1,31 @@
+
+
+.grid-form {
+  @media (min-width: 1024px) {
+    display: grid ;
+    grid-template-columns: repeat(7, 14%);
+    grid-template-rows: 100%;
+  }
+}
+
+
+.buttons-search {
+  margin: 2rem 0 0 2rem;
+  
+  @media (min-width: 1024px) {
+    margin: 1.5rem 0 0 0;
+  }
+}
+
+.b-s {
+  
+  background-color: #457db4;
+}
+
+.b-cf {
+  background-color: #e5a957;
+}
+
+.mal {
+  margin-left: auto;
+}

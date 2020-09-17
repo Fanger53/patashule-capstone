@@ -1,7 +1,153 @@
-/* Nav-bar  */
 .bg-main {
   background-color: #d35749; }
 
+.bg-color-red-2 {
+  background-color: #e17f64; }
+
+.bg-color-gray {
+  background-color: #99a5a7; }
+
+.color-gray-l {
+  background-color: #cfcbcb9f; }
+
+.color-gray-2 {
+  background-color: #eeeeee; }
+
+.bg-color-blue {
+  background-color: #519bd7; }
+
+.bg-color-white {
+  background-color: white; }
+
+.main-color {
+  color: #d35749; }
+
+.color-gray {
+  color: #99a5a7; }
+
+.color-blue {
+  color: #519bd7; }
+
 @media (min-width: 1024px) {
-  .m-lg {
-    margin-left: auto; } }
+  .grid-form {
+    display: grid;
+    grid-template-columns: repeat(7, 14%);
+    grid-template-rows: 100%; } }
+
+.buttons-search {
+  margin: 2rem 0 0 2rem; }
+  @media (min-width: 1024px) {
+    .buttons-search {
+      margin: 1.5rem 0 0 0; } }
+
+.b-s {
+  background-color: #457db4; }
+
+.b-cf {
+  background-color: #e5a957; }
+
+.mal {
+  margin-left: 5rem; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.bg-black {
+  background-color: black; }
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.flex {
+  display: flex; }
+
+.center {
+  margin: 0 auto !important; }
+
+.list {
+  list-style: none; }
+
+.circle {
+  width: 300px;
+  height: 300px; }
+
+/* Nav-bar  */
+.nav-text {
+  font-size: 30px; }
+
+.img-logo {
+  height: 3.438rem; }
+
+/*  Header  */
+.header-img {
+  background-image: url(../images/pexels-artem-beliaikin-1153976.jpg);
+  width: 100%;
+  height: 29rem;
+  /* @media (min-width: 768px) {
+    margin-top: 0;
+    height: 40vh;
+
+  } */ }
+
+.search-div {
+  width: 85%;
+  margin: 15px 0; }
+
+.form-header {
+  border: 1px solid black; }
+  @media (min-width: 1024px) {
+    .form-header {
+      margin: 0 auto; } }
+
+.input-header {
+  width: 90%; }
+
+.button-search {
+  width: 90%; }
+
+/* section */
+.section-one {
+  width: 100%; }
+
+.logo-search {
+  width: 50px;
+  height: 50px;
+  margin-left: 46%; }
+
+.section-two {
+  width: 100%; }
+
+/* section-two */
+.grid-section-two {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
+  @media (min-width: 768px) {
+    .grid-section-two {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100%; } }
+
+.s-2-img-1 {
+  background-image: url(../images/school.jpg); }
+
+.s-2-img-2 {
+  background-image: url(../images/find.jpg); }
+
+/*  Footer  */
+.footer-logo {
+  width: 2.625rem; }
+
+.contact-p {
+  color: #e17f64; }
+
+.footer-bottom {
+  height: 65px;
+  /* display: none;
+  @media (min-width: 768px) {
+    display: inline-block;
+
+  }*/ }

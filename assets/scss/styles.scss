@@ -1,13 +1,145 @@
 @import "colors";
+@import "search";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$border: 1.5px solid rgba(241, 240, 247, 0.849);
+.bg-black {
+  background-color: $color-black;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  margin: 0 auto !important;
+}
+
+.list {
+  list-style: none;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+}
 
 /* Nav-bar  */
 
-.bg-main { 
-  background-color: $color-red;
+.nav-text {
+  font-size: 30px;
 }
 
-.w-lg {
+.img-logo {
+  height: 3.438rem;
+}
+
+/*  Header  */
+
+.header-img {
+  background-image: url(../images/pexels-artem-beliaikin-1153976.jpg);
+  width: 100%;
+  height: 29rem;
+  
+
+  /* @media (min-width: 768px) {
+    margin-top: 0;
+    height: 40vh;
+
+  } */
+
+}
+
+.search-div {
+  width: 85%;
+  margin: 15px 0;
+}
+
+.form-header {
+  
+  border: 1px solid black;
   @media (min-width: 1024px){
-    width: 80%;
+    
+    margin: 0 auto;
+    
   }
+}
+.input-header {
+  width: 90%;
+  
+}
+
+.button-search {
+  width: 90%;
+  
+}
+/* section */
+
+.section-one {
+  width: 100%;
+}
+
+.logo-search {
+  width: 50px;
+  height: 50px;
+  margin-left:  46%;
+}
+
+.section-two {
+  width: 100%;
+}
+
+/* section-two */
+
+.grid-section-two {
+  display:  grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+
+  }
+
+}
+
+.s-2-img-1 {
+  background-image: url(../images/school.jpg)
+}
+
+.s-2-img-2 {
+  background-image: url(../images/find.jpg)
+}
+
+
+/*  Footer  */
+
+.footer-logo {
+  width: 2.625rem;
+}
+
+.contact-p {
+  color: $color-red-2;
+}
+
+.footer-bottom {
+  height: 65px;
+ /* display: none;
+  @media (min-width: 768px) {
+    display: inline-block;
+
+  }*/
 }
