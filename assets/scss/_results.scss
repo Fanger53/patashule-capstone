@@ -1,0 +1,22 @@
+.grid-results {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:  5px;
+}
+
+.results-p {
+  border: 1.5px solid gray;
+  font-weight: 500;
+}
+
+.button-results {
+  margin-left: 80%;
+}
+
+.info-p {
+  font-weight: 500;
+}
+
+.map {
+  margin: 0 auto;
+}

@@ -1,5 +1,7 @@
 @import "colors";
 @import "search";
+@import "results";
+
 
 * {
   padding: 0;
@@ -36,7 +38,24 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
   height: 300px;
 }
 
+.text-500 {
+  font-weight: 500;
+}
+
+.text-700 {
+  font-weight: 700;
+}
+
 /* Nav-bar  */
+
+.nav-brad {
+  justify-content: center;
+}
+
+.links-nav {
+  display: flex;
+  justify-content: space-between;
+}
 
 .nav-text {
   font-size: 30px;
@@ -60,6 +79,20 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 
   } */
 
+}
+
+.position-div {
+  position: relative;
+  top: 80px;
+}
+
+.form-index-grid {
+  display: grid;
+  grid-template-columns: 90%;
+  @media (min-width: 768px) {
+    grid-template-columns: 60% 20%;
+    padding-left: 5rem;
+  }
 }
 
 .search-div {
