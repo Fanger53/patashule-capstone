@@ -2,7 +2,6 @@
 @import "search";
 @import "results";
 
-
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +9,7 @@
 }
 
 $border: 1.5px solid rgba(241, 240, 247, 0.849);
+
 .bg-black {
   background-color: $color-black;
 }
@@ -17,8 +17,7 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 .bg-img {
   background-position: center;
   background-repeat: no-repeat;
-  background-size:  cover;
-  
+  background-size: cover;
 }
 
 .flex {
@@ -71,14 +70,6 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
   background-image: url(../images/pexels-artem-beliaikin-1153976.jpg);
   width: 100%;
   height: 29rem;
-  
-
-  /* @media (min-width: 768px) {
-    margin-top: 0;
-    height: 40vh;
-
-  } */
-
 }
 
 .position-div {
@@ -89,6 +80,7 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 .form-index-grid {
   display: grid;
   grid-template-columns: 90%;
+
   @media (min-width: 768px) {
     grid-template-columns: 60% 20%;
     padding-left: 5rem;
@@ -101,24 +93,22 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 }
 
 .form-header {
-  
   border: 1px solid black;
-  @media (min-width: 1024px){
-    
+
+  @media (min-width: 1024px) {
     margin: 0 auto;
-    
   }
 }
+
 .input-header {
   width: 90%;
-  
 }
 
 .button-search {
   width: 90%;
-  
 }
-/* section */
+
+/*  section  */
 
 .section-one {
   width: 100%;
@@ -127,7 +117,7 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 .logo-search {
   width: 50px;
   height: 50px;
-  margin-left:  46%;
+  margin-left: 46%;
 }
 
 .section-two {
@@ -137,26 +127,23 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 /* section-two */
 
 .grid-section-two {
-  display:  grid;
+  display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
 
   @media (min-width: 768px) {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
-
   }
-
 }
 
 .s-2-img-1 {
-  background-image: url(../images/school.jpg)
+  background-image: url(../images/school.jpg);
 }
 
 .s-2-img-2 {
-  background-image: url(../images/find.jpg)
+  background-image: url(../images/find.jpg);
 }
-
 
 /*  Footer  */
 
@@ -170,9 +157,4 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 
 .footer-bottom {
   height: 65px;
- /* display: none;
-  @media (min-width: 768px) {
-    display: inline-block;
-
-  }*/
 }
