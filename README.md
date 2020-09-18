@@ -3,8 +3,8 @@
 
 This project is a directory page that helps people to find a school wherever they want. It uses the same design from the project Patashule. [link of the original project](https://www.behance.net/gallery/25563385/PatashuleKE). The page has a main page, a search page, and results of the schools selected.
 
-![mockup](https://user-images.githubusercontent.com/31552010/93630031-e8962080
--f9ae-11ea-8d28-2d9940f2952a.jpg)
+![m](https://user-images.githubusercontent.com/31552010/93630341-7e31b000-f9af-11ea-92b5-4b4a3b314414.png)
+
 
 
 ## Built With
