@@ -3,8 +3,9 @@ $color-red-2: #e17f64;
 $color-black: black;
 $color-gray: #99a5a7;
 $color-blue: #519bd7;
-$color-gray-l: #cecaca9f;
+$color-gray-l: #7c72729f;
 $color-gray-2:  #eee;
+$color-darker: rgba(0, 0, 0, 0.404);
 
 .bg-main {
   background-color: $color-red;
@@ -12,6 +13,10 @@ $color-gray-2:  #eee;
 
 .bg-color-red-2 {
   background-color: $color-red-2;
+}
+
+.color-darker {
+  color: $color-darker;
 }
 
 .bg-color-gray {

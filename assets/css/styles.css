@@ -4,11 +4,14 @@
 .bg-color-red-2 {
   background-color: #e17f64; }
 
+.color-darker {
+  color: rgba(0, 0, 0, 0.404); }
+
 .bg-color-gray {
   background-color: #99a5a7; }
 
 .color-gray-l {
-  background-color: #cecaca9f; }
+  background-color: #7c72729f; }
 
 .color-gray-2 {
   background-color: #eee; }
