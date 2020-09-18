@@ -17,6 +17,8 @@ This project is a directory page that helps people to find a school wherever the
 
 [Live Demo Link](https://rawcdn.githack.com/Fanger53/patashule-capstone/750e12bd64c698d8a63662c49d309a803a94e839/index.html)
 
+Here is a presentation video of this project: [link](https://www.loom.com/share/4514c25093914d0f916d6a0b88919da5)
+
 ## Getting Started
 
 The project is public.
