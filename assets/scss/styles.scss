@@ -58,6 +58,10 @@ $border: 1.5px solid rgba(241, 240, 247, 0.849);
 .links-nav {
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: 1024px) {
+    width: 70%;
+  }
 }
 
 .nav-text {
