@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>patashule</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
+</head>
+<body>
+  <!--Navbar -->
+  <nav class=" navbar  navbar-dark bg-main ">
+    <div class="row container-fluid ">
+    <div class="d-flex pl-auto  nav-brad col-12 col-md-6">
+      <a class="navbar-brand " href="./index.html"><i class="fas fa-map-marker-alt nav-text mt-2"></i>  </a>
+      <h2 class="text-white pt-2 font-weight-bold nav-text"> <a href="./index.html" class="text-white"> SchoolYa</a></h2>
+    </div>
+    <div class=" col-12 col-md-6 font-weight-bold">
+      <ul class="navbar-nav ml-auto  nav-flex-icons links-nav mr-lg-1 ">
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="fas fa-search"></i>
+            <span class="collapse d-md-inline"> SCHOOLS </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="far fa-user"></i>
+            <span class="collapse d-md-inline"> ABOUT</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="fas fa-rss"></i>
+            <span class="collapse d-md-inline"> BLOG</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">
+            <i class="fas fa-bars"></i>
+            <span class="collapse d-md-inline"> MORE</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+<!-- Navbar -->
+<header class="bg-color-gray-2 mt-5">
+  <h2 class=" text-center mt-3 text-500">Filter by name, country, type, price:</h2>
+  <form action="./results.html" class="grid-form mt-4">
+    <div class="d-flex flex-column ">
+      <label for="name" class="mx-4 text-500">SCHOOL:</label>
+      <input type="text" id="name" class=" mx-4 mb-3">
+    </div>
+    <div class="d-flex flex-column ">
+      <label for="county" class="mx-4 text-500">COUNTRY:</label>
+      <select name="country" id="county" class="mx-4 py-1">
+          <option value="country">&nbsp;</option>
+          <option value="U.S.A">U.S.A</option>
+          <option value="England">England</option>
+          <option value="Colombia">Colombia</option>
+      </select>
+    </div>
+    <div class="d-flex flex-column ">
+        <label for="county" class="mx-4 text-500">LEVEL:</label>
+        <select name="level" id="level" class="mx-4 py-1">
+            <option value="level">&nbsp;</option>
+            <option value="Kidergaten">Kidergaten</option>
+            <option value="Primary">Primary</option>
+            <option value="Secondary">Secondary</option>
+        </select>
+      </div>
+    <div class="d-flex flex-column ">
+        <label for="type" class="mx-4 text-500">TYPE:</label>
+        <select name="type" id="type" class="mx-4 py-1">
+          <option value="type">&nbsp;</option>
+          <option value="Public">Public</option>
+          <option value="Private">Private</option>
+          
+          </select>
+        </div>
+      <div class="d-flex flex-column ">
+        <label for="type" class="mx-4 text-500">GENDER:</label>
+          <select name="select" id="gender" class="mx-4 py-1">
+            <option value="type">&nbsp;</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+      </div>
+      <div class="d-flex flex-column ">
+          <label for="curriculum" class="mx-4 text-500">CURRICULUM:</label>
+            <select name="curriculum" id="curriculum" class="mx-4 py-1">
+              <option value="type">&nbsp;</option>
+              <option value="yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+        </div>
+      <div class="buttons-search">
+        <button class="b-s text-white rounded p-1 text-500" >Search</button>
+        <button class="b-cf text-white rounded p-1"><span><i class="far fa-edit"></i></span> Clear Filters</button>
+      </div>
+  </form>
+</header>
+<main>
+  <h1 class="text-center">Search Result Found 6 School(S).</h1>
+  <section class="container">
+    <div class="row mt-3 ml-auto">
+      <div class="col-12 col-sm-12 col-md-4 mt-3 "><a href="./results.html"> <img src="./assets/images/resultsjpg.jpg" alt="results" class="mal"></a></div>
+      <div class="col-12 col-sm-12 col-md-4 mt-3 "><a href="./results.html"> <img src="./assets/images/resultsjpg.jpg" alt="results" class="mal"></a></div>
+      <div class="col-12 col-sm-12 col-md-4 mt-3"><a href="./results.html"> <img src="./assets/images/resultsjpg.jpg" alt="results" class="mal"></a></div>
+    </div>
+    <div class="row mt-3 ml-auto mb-4">
+        <div class="col-12 col-sm-12 col-md-4 mt-3 mx-auto"><a href="./results.html"> <img src="./assets/images/resultsjpg.jpg" alt="results" class="mal"></a></div>
+        <div class="col-12 col-sm-12 col-md-4 mt-3 mx-auto"><a href="./results.html"> <img src="./assets/images/resultsjpg.jpg" alt="results" class="mal"></a></div>
+        <div class="col-12 col-sm-12 col-md-4 mt-3 mx-auto"><a href="./results.html"> <img src="./assets/images/resultsjpg.jpg" alt="results" class="mal"></a></div>
+      </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-black ">
+  <div class="container d-flex justify-content-center">
+    <ul class="navbar-nav d-inline justify-content-between ">
+      <li class="nav-item text-white d-inline ">
+        <a class="nav-link p-2">
+          HOME
+        </a>
+      </li>
+      <li class="nav-item text-white d-inline ml-2">
+        <a class="nav-link p-2">
+          SEARCH
+        </a>
+      </li>
+      <li class="nav-item text-white d-inline">
+        <a class="nav-link p-2">
+          ABOUT US
+        </a>
+      </li>
+      <li class="nav-item text-white d-inline">
+        <a class="nav-link p-2">
+          ADVERTISE
+        </a>
+      </li>
+      <li class="footer-logo d-inline"> <span> <img src="./assets/images/test.svg" alt="logo" class="img-logo collapse d-md-inline"></span></li>
+      <li class="nav-item text-white d-inline">
+        <a class="nav-link p-2">
+          FACEBOOK
+        </a>
+      </li>
+      <li class="nav-item text-white d-inline">
+        <a class="nav-link p-2">
+          TWITTER
+        </a>
+      </li>
+      <li class="nav-item text-white d-inline">
+        <a class="nav-link p-2">
+          BLOG
+        </a>
+      </li>
+      <li class="nav-item text-white d-inline">
+        <a class="nav-link p-2">
+          GOOGLE +
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="row mt-5 text-white container mx-auto text-center">
+    <div class="col-12 col-sm-12  col-md-4">
+      <h4>SUBSCRIBE</h4>
+      <form action="#" method="post">
+        <label for="send-mail" class="text-white">E-mail</label>
+        <input  type="text" id="send-mail">
+        <button type="submit" class=" border">SEND</button>
+      </form>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <h4>CONTACT</h4>
+      <p>Have a question or suggestions?</p>
+      <p class="contact-p">Contact@findschool.com</p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <h4>ABOUT</h4>
+      <p>SchoolYa is an online platform that helps people to find the nearest school in their zone. Help them to start a study much easier without excuses. <span class="main-color"> Lear more...</span></p>
+    </div>
+  </div>
+  <div class="footer-bottom collapse collapse-sm d-md-flex bg-color-gray flex justify-content-between">
+  <div >
+    <ul class="flex align-items-center pt-2">
+        <li class="list">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li class="list">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-pinterest-p"></i>
+            </a>
+        </li>
+        <li class="list">
+            <a class="nav-link waves-effect waves-light">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+        </li>
+        <li class="list">
+            <a class="nav-link waves-effect waves-light">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        
+    </ul>
+
+  </div>
+  <div class="mr-3 mt-3">
+    <p>It uses the same design from the project Patashule. <span> <a href="https://www.behance.net/gallery/25563385/PatashuleKE" class="main-color"> link of the original project </a></span></p>
+  </div>
+  </div>
+</footer>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
